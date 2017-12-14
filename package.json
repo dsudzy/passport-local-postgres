@@ -1,0 +1,38 @@
+{
+  "name": "passport-local-postgres",
+  "version": "1.0.0",
+  "description": "Passport-Local Postgres is a Postgres plugin that simplifies building username and password login with Passport",
+  "keywords": [
+    "passport",
+    "local",
+    "auth",
+    "authn",
+    "authentication",
+    "username",
+    "password",
+    "postgres"
+  ],
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dsudzy/passport-local-postgres.git"
+  },
+  "author": "Daniel Sudenfield <dsudenfield@gmail.com>",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Dsudzy/passport-local-postgres/issues"
+  },
+  "homepage": "https://github.com/Dsudzy/passport-local-postgres#readme",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^1.0.3"
+  }
+}
