@@ -13,7 +13,7 @@ $ npm install passport-local-postgres --save
 $ yarn add passport-local-postgres
 ```
 
-Passport-Local Mongoose does not require `passport`, `passport-local` or `postgress` dependencies directly but expects you
+Passport-Local Postgres does not require `passport`, `passport-local` or `postgress` dependencies directly but expects you
 to have these dependencies installed.
 
 In case you need to install the whole set of dependencies
