@@ -6,10 +6,10 @@ that simplifies building username and password login with [Passport](http://pass
 ## Installation
 
 ```bash
-#npm
+# npm
 $ npm install passport-local-postgres --save
 
-#yarn
+# yarn
 $ yarn add passport-local-postgres
 ```
 
@@ -19,10 +19,10 @@ to have these dependencies installed.
 In case you need to install the whole set of dependencies
 
 ```bash
-#npm
+# npm
 $ npm install passport passport-local pg passport-local-postgres --save
 
-#yarn
+# yarn
 $ yarn add passport passport-local pg passport-local-postgres
 ```
 
@@ -42,7 +42,7 @@ pool.on('error', function (err) {
   console.log('idle client error', err.message, err.stack);
 })
 
-var postgresLocal = require('passport-local-postgres')(pool);
+const postgresLocal = require('passport-local-postgres')(pool);
 ```
 
 #### Simplified Passport/Passport-Local Configuration
