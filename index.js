@@ -35,7 +35,7 @@ function postgresLocal(pool) {
     }
 
     this.deserializeUser = function(id, cb) {
-        this.pool.connect((err, client, release) => {
+        self.pool.connect((err, client, release) => {
           if (err) {
             console.log('Error acquiring client', err.stack);
             return cb(err);
