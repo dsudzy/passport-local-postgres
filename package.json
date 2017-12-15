@@ -1,6 +1,6 @@
 {
   "name": "passport-local-postgres",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Passport-Local Postgres is a Postgres plugin that simplifies building username and password login with Passport",
   "keywords": [
     "passport",
