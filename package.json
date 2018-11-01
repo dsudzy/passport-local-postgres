@@ -33,6 +33,6 @@
   "homepage": "https://github.com/Dsudzy/passport-local-postgres#readme",
   "main": "index.js",
   "dependencies": {
-    "bcrypt": "^1.0.3"
+    "bcrypt": "^3.0.2"
   }
 }
